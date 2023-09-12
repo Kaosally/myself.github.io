@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(180, 197, 187);
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.container{
+    position: relative;
+    top: 3%;
+    transform: translateY(8%);
+}
+.myself{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 70%;
+}
+i{
+    margin-bottom: 5px;
+}
+ul{
+    display: inline-block;
+    width: 700px;
+    position: relative;
+    right: 03%;
+    font-size: 21px;
+}
+ul li{
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 14px;
+}
+a{
+    text-decoration: none;
+}
+.onesection,.twosection,.threesection,.foursection,.fivesection,.eightsection,.ninesection{
+    background-color: rgb(228, 225, 225);
+    color: black;
+    max-width: 1020px;
+    max-height: 620px;
+    margin: auto;
+    margin-bottom: 54px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15%;
+}
+.sixsection,.sevensection{
+    background-color: rgb(228, 225, 225);
+    color: black;
+    max-width: 1020px;
+    max-height: 920px;
+    margin: auto;
+    margin-bottom: 54px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15%;
+}
+main{
+    background-color: rgb(167, 195, 185);
+    margin: 0px -7px;
+    padding: 35px;
+}
+mark{
+    background-color:bisque;
+    background-size: 90%;
+}
+.Portfolio,.license,.photo{
+    width: 250px;
+    height: 230px;
+    margin: 0px 5px;
+}
+.col-md-3{
+    max-width: 25%;
+    box-shadow: 3px 5px 7px 5px rgb(188, 202, 202);
+    padding: 15px;
+    margin: 0px 0px 0px 40px;
+    display: inline-block;
+}
+.korean,.English,.Marvel,.idol,.WebDesign{
+    width: 252px;
+    height: 192px;
+}
+.bicycle{
+    width: 286px;
+    height: 215px;
+}
+.lower{
+    height: 185px;
+}
+.lower2{
+    height: 162px;
+    width: 228px;
+}
